@@ -82,11 +82,10 @@ def load_bgs(bg_dir):
     for root, sub_folder, file_list in os.walk(bg_dir):
         for file_name in file_list:
             image_path = os.path.join(root, file_name)
-
             # For load non-ascii image_path on Windows
             bg = cv2.imdecode(np.fromfile(image_path, dtype=np.uint8), cv2.IMREAD_COLOR)
-
-            dst.append(bg)
+            if bg is not None:
+                dst.append(bg)
 
     print("Background num: %d" % len(dst))
     return dst
