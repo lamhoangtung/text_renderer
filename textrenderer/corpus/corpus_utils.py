@@ -2,6 +2,7 @@ from textrenderer.corpus.chn_corpus import ChnCorpus
 from textrenderer.corpus.eng_corpus import EngCorpus
 from textrenderer.corpus.list_corpus import ListCorpus
 from textrenderer.corpus.random_corpus import RandomCorpus
+from textrenderer.corpus.info_genetator import IDCorpus
 
 
 def corpus_factory(corpus_mode: str, chars_file: str, corpus_dir: str, length: int):
@@ -9,7 +10,8 @@ def corpus_factory(corpus_mode: str, chars_file: str, corpus_dir: str, length: i
         "random": RandomCorpus,
         "chn": ChnCorpus,
         "eng": EngCorpus,
-        "list": ListCorpus
+        "list": ListCorpus,
+        "id": IDCorpus,
     }
 
     if corpus_mode not in corpus_classes.keys():

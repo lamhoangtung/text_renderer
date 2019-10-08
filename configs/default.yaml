@@ -7,26 +7,26 @@ font_size:
 # color boundary is in R,G,B format
 font_color:
   enable: true
-  black:
-    fraction: 0.7
-    l_boundary: [0,0,0]
-    h_boundary: [60,60,60]
-  brown:
-    fraction: 0.15
-    l_boundary: [139,70,19]
-    h_boundary: [160,82,43]
+  # black:
+  #   fraction: 0.7
+  #   l_boundary: [0,0,0]
+  #   h_boundary: [60,60,60]
+  # brown:
+  #   fraction: 0.1
+  #   l_boundary: [139,70,19]
+  #   h_boundary: [160,82,43]
   red:
-    fraction: 0.15
-    l_boundary: [150,0,0]
-    h_boundary: [255,60,60]
+    fraction: 1
+    l_boundary: [195,20,20]
+    h_boundary: [255,30,30]
 
 # By default, text is drawed by Pillow with (https://stackoverflow.com/questions/43828955/measuring-width-of-text-python-pil)
 # If `random_space` is enabled, some text will be drawed char by char with a random space
 random_space:
   enable: true
-  fraction: 0.5
+  fraction: 1
   min: -0.1 # -0.1 will make chars very close or even overlapped
-  max: 0.1
+  max: 0.5
 
 # Do remap with sin()
 # Currently this process is very slow!
