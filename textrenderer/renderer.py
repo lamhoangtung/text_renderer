@@ -237,10 +237,20 @@ class Renderer(object):
         color_name = np.random.choice(colors, p=p)
         l_boundary = self.cfg.font_color[color_name].l_boundary
         h_boundary = self.cfg.font_color[color_name].h_boundary
+
         # random color by low and high RGB boundary
-        r = np.random.randint(l_boundary[0], h_boundary[0])
-        g = np.random.randint(l_boundary[1], h_boundary[1])
-        b = np.random.randint(l_boundary[2], h_boundary[2])
+        if l_boundary[0] == h_boundary[0]:
+            r = h_boundary[0]
+        else:
+            r = np.random.randint(l_boundary[0], h_boundary[0])
+        if l_boundary[1] == h_boundary[1]:
+            g = h_boundary[1]
+        else:
+            g = np.random.randint(l_boundary[1], h_boundary[1])
+        if l_boundary[2] == h_boundary[2]:
+            b = h_boundary[2]
+        else:
+            b = np.random.randint(l_boundary[2], h_boundary[2])
         return b, g, r
 
     def draw_text_on_bg(self, word, font, bg):
