@@ -89,7 +89,7 @@ def generate_img(img_index, q=None):
     base_name = '{:08d}'.format(img_index)
 
     if not flags.viz:
-        fname = os.path.join(flags.save_dir, base_name + '.jpg')
+        fname = os.path.join(flags.save_dir, base_name + '.png')
         cv2.imwrite(fname, im)
 
         label = "{} {}".format(base_name, word)
