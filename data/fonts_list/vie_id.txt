@@ -1,0 +1,8 @@
+data/fonts/vie/Trixi Pro Lig.ttf
+data/fonts/vie/P22 Typewriter Regular.ttf
+data/fonts/vie/arialbd.ttf
+data/fonts/vie/SP3 - Traveling Typewriter.otf
+data/fonts/vie/Trixi Pro Ext.ttf
+data/fonts/vie/Trixi Pro Regular.ttf
+data/fonts/vie/pala.ttf
+data/fonts/vie/arial.ttf
