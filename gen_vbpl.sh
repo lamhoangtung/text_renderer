@@ -1,6 +1,11 @@
 python3 main.py --chars_file data/chars/vie.txt \
                 --fonts_list data/fonts_list/vie.txt \
+                --config_file configs/vbpl.yaml \
+                --bg_dir data/bg/ \
+                --length 150 \
                 --corpus_mode vbpl \
                 --length 12 \
                 --num_img 100 \
-                --strict
+                --tag clean \
+                --strict \
+                --clip_max_chars
