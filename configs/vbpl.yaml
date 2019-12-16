@@ -1,7 +1,7 @@
 # Small font_size will make text looks like blured/prydown
 font_size:
-  min: 14
-  max: 28
+  min: 26
+  max: 32
 
 # choose Text color range
 # color boundary is in R,G,B format
@@ -26,7 +26,7 @@ random_space:
   enable: true
   fraction: 1
   min: -0.1 # -0.1 will make chars very close or even overlapped
-  max: 0.3
+  max: 0.25
 
 # Do remap with sin()
 # Currently this process is very slow!
@@ -39,7 +39,7 @@ curve:
 
 # random crop text height
 crop:
-  enable: true
+  enable: false
   fraction: 0.5
 
   # top and bottom will applied equally
@@ -79,9 +79,10 @@ seamless_clone:
   fraction: 0.5
 
 perspective_transform:
-  max_x: 25
-  max_y: 25
-  max_z: 3
+  enable: false
+  max_x: 0
+  max_y: 0
+  max_z: 0
 
 blur:
   enable: false
@@ -156,4 +157,3 @@ emboss:
 sharp:
   enable: false
   fraction: 0.1
-
