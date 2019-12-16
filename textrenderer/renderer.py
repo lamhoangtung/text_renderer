@@ -17,7 +17,7 @@ from textrenderer.remaper import Remaper
 
 
 class Renderer(object):
-    def __init__(self, corpus, fonts, bgs, cfg, width=256, height=32,
+    def __init__(self, corpus, fonts, bgs, cfg, flags, width=256, height=32,
                  clip_max_chars=False, debug=False, gpu=False, strict=False):
         self.corpus = corpus
         self.fonts = fonts
@@ -25,7 +25,7 @@ class Renderer(object):
         self.out_width = width
         self.out_height = height
         self.clip_max_chars = clip_max_chars
-        self.max_chars = math.floor(width / 4) - 1
+        self.max_chars = flags.length  # math.floor(width / 4) - 1
         self.debug = debug
         self.gpu = gpu
         self.strict = strict
@@ -145,7 +145,7 @@ class Renderer(object):
         x_offset = 0
         if x_max_offset != 0:
             x_offset = random.randint(0, x_max_offset)
-
+        # x_offset, y_offset = random.randint(15,20), random.randint(15,20)
         return x_offset, y_offset
 
     def crop_img(self, img, text_box_pnts_transformed):
@@ -169,7 +169,7 @@ class Renderer(object):
         # we should do something to prevent text too small
 
         # dst_height and dst_width is used to leave some padding around text bbox
-        dst_height = random.randint(self.out_height // 4 * 3, self.out_height)
+        dst_height = random.randint(self.out_height // 4 * 3, self.out_height+5)
 
         if self.out_width == 0:
             scale = bbox_height / dst_height
@@ -182,6 +182,7 @@ class Renderer(object):
 
         if self.out_width == 0:
             padding = random.randint(s_bbox_width // 10, s_bbox_width // 8)
+            padding = random.randint(5,10)
             dst_width = s_bbox_width + padding * 2
 
         s_bbox = (np.around(bbox[0] / scale),
@@ -194,8 +195,8 @@ class Renderer(object):
         dst_bbox = (
             self.int_around((s_bbox[0] - x_offset) * scale),
             self.int_around((s_bbox[1] - y_offset) * scale),
-            self.int_around(dst_width * scale),
-            self.int_around(self.out_height * scale)
+            self.int_around((dst_width + x_offset) * scale),
+            self.int_around((self.out_height + y_offset) * scale)
         )
 
         # It's important do crop first and than do resize for speed consider

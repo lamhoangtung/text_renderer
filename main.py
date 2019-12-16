@@ -41,7 +41,7 @@ bgs = utils.load_bgs(flags.bg_dir)
 
 corpus = corpus_factory(flags.corpus_mode, flags.chars_file, flags.corpus_dir, flags.length)
 
-renderer = Renderer(corpus, fonts, bgs, cfg,
+renderer = Renderer(corpus, fonts, bgs, cfg, flags,
                     height=flags.img_height,
                     width=flags.img_width,
                     clip_max_chars=flags.clip_max_chars,
