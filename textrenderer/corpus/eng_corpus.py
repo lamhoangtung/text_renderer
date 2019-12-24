@@ -28,7 +28,7 @@ class EngCorpus(Corpus):
     def get_sample(self, img_index):
         # start = np.random.randint(0, len(self.corpus) - self.length)
         # words = self.corpus[start:start + self.length]
-        words = random.sample(self.corpus, k=random.randint(2, self.length))
+        words = random.sample(self.corpus, k=random.randint(2, self.length-3))
         for index, word in enumerate(words):
             mode = int(np.random.choice(3, 1, p=[0.65, 0.25, 0.1])) # 0: lowercase, 1: firstupcase, 2: allupcase
             if mode == 1:

@@ -47,6 +47,8 @@ class Renderer(object):
 
     def gen_img(self, img_index):
         word, font, word_size = self.pick_font(img_index)
+        # print(img_index)
+        # print(font)
         self.dmsg("after pick font")
 
         # Background's height should much larger than raw word image's height,
@@ -519,7 +521,8 @@ class Renderer(object):
         word = self.corpus.get_sample(img_index)
 
         if self.clip_max_chars and len(word) > self.max_chars:
-            word = word[:self.max_chars]
+            max_chars = random.randint(int(0.7*self.max_chars),self.max_chars)
+            word = word[:max_chars]
 
         font_path = random.choice(self.fonts)
 
@@ -536,7 +539,7 @@ class Renderer(object):
         # Font size in point
         font_size = random.randint(self.cfg.font_size.min, self.cfg.font_size.max)
         font = ImageFont.truetype(font_path, font_size)
-
+        # print(font_path)
         return word, font, self.get_word_size(font, word)
 
     def get_word_size(self, font, word):
