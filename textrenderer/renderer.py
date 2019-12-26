@@ -53,7 +53,7 @@ class Renderer(object):
 
         # Background's height should much larger than raw word image's height,
         # to make sure we can crop full word image after apply perspective
-        bg = self.gen_bg(width=word_size[0] * 8, height=word_size[1] * 8)
+        bg = self.gen_bg(width=word_size[0], height=word_size[1])
         word_img, text_box_pnts, word_color = self.draw_text_on_bg(word, font, bg)
         self.dmsg("After draw_text_on_bg")
 
