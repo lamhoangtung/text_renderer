@@ -4,6 +4,8 @@ from textrenderer.corpus.list_corpus import ListCorpus
 from textrenderer.corpus.random_corpus import RandomCorpus
 # from textrenderer.corpus.info_genetator import IDCorpus
 from textrenderer.corpus.vbpl_corpus import VBPLCorpus
+from textrenderer.corpus.cmnd_corpus import CMNDCorpus
+
 
 
 def corpus_factory(corpus_mode: str, chars_file: str, corpus_dir: str, length: int):
@@ -12,7 +14,7 @@ def corpus_factory(corpus_mode: str, chars_file: str, corpus_dir: str, length: i
         "chn": ChnCorpus,
         "eng": EngCorpus,
         "list": ListCorpus,
-        "id": None,
+        "cmnd": CMNDCorpus,
         'vbpl': VBPLCorpus
     }
 
