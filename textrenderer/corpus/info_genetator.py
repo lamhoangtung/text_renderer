@@ -1,4 +1,3 @@
-from textrenderer.corpus.corpus import Corpus
 import json
 import os
 import random
@@ -24,16 +23,45 @@ phuong_xa = pd.unique(address_db['Phường Xã'])
 
 # For profiles images generation
 
+
+def is_image(path):
+    img_ext = ['.png', '.jpg', '.jpeg']
+    for ext in img_ext:
+        if path.endswith(ext):
+            return True
+    return False
+
+
+profile_imgs_db_path = './data/info/profile_images/'
+profile_imgs_db = [os.path.join(profile_imgs_db_path, filename)
+                   for filename in os.listdir(profile_imgs_db_path) if is_image(filename)]
+if len(profile_imgs_db) == 0:
+    raise FileNotFoundError(
+        "Can't file any profile images in", profile_imgs_db_path, ", please refer to the README to download some")
+
+
+def get_rand_profile_img(img_size):
+    raw_img = Image.open(random.choice(profile_imgs_db)).convert("RGB")
+    return raw_img.resize(img_size)
+
+
 def get_rand_name(is_can_cuoc=False):
     name = ''
     fake_name = random.uniform(0, 1) < 0.2
     if fake_name:
-        if random.uniform(0, 1) <= 0.4:
+        random_fake_name = random.uniform(0, 1)
+        if random_fake_name <= 0.2:
+            name = '{} {} {} {} {}'.format(random.choice(family_names), random.choice(
+                middle_names), random.choice(middle_names), random.choice(middle_names), random.choice(first_names))
+        elif random_fake_name <= 0.4:
             name = '{} {} {} {}'.format(random.choice(family_names), random.choice(
                 middle_names), random.choice(middle_names), random.choice(first_names))
-        else:
+        elif random_fake_name <= 0.9:
             name = '{} {} {}'.format(random.choice(family_names), random.choice(
                 middle_names), random.choice(first_names))
+        else:
+            name = '{} {}'.format(random.choice(
+                family_names), random.choice(first_names))
     else:
         name = random.choice(real_name_db)
     if random.uniform(0, 1) <= 0.7 or is_can_cuoc:
@@ -148,8 +176,18 @@ def get_rand_ngay_cap():
 def get_rand_di_hinh():
     res = random.choice(loai_di_hinh)
     if random.uniform(0, 1) <= 0.85:
-        res += ' {} {:.2f} cm'.format(random.choice(
-            tu_noi_khoang_cach), random.uniform(0.2, 2.5))
+        prop = random.uniform(0, 1)
+
+        if prop < 0.1:
+            res += ' {}{:.2f} cm'.format(random.choice(
+                tu_noi_khoang_cach), random.uniform(0.2, 2.5))
+        elif prop < 0.3:
+            res += ' {:.2f} cm {} {:.2f} cm'.format(random.uniform(0.2, 2.5), random.choice(
+                tu_noi_khoang_cach), random.uniform(0.2, 2.5))
+        else:
+            res += ' {} {:.2f} cm'.format(random.choice(
+                tu_noi_khoang_cach), random.uniform(0.2, 2.5))
+
     res += ' '
     res += random.choice(vi_tri)
     res += ' '
@@ -191,6 +229,42 @@ def sample_from_corpus(max_length=70):
     return text
 
 
+def random_remove_characters(s):
+    # print('From', s)
+    s = list(s)
+    count = max(1, int(random.uniform(0.05, 0.07)*len(s)))
+    for i in range(count):
+        index = random.randint(0, len(s) - 1)
+        del s[index]
+    # print('To', ''.join(s))
+    # print('----------')
+    return ''.join(s)
+
+
+char_list = open('./data/info/charlist.txt', 'r').read().split('\n')
+
+
+def random_change_chracters(s):
+    # print('From', s)
+    s = list(s)
+    count = max(1, int(random.uniform(0.05, 0.07)*len(s)))
+    for i in range(count):
+        index = random.randint(0, len(s) - 1)
+        s[index] = random.choice(char_list)
+    # print('To', ''.join(s))
+    # print('----------')
+    return ''.join(s)
+
+
+def random_data_manipulation(data_dict):
+    for field in data_dict.keys():
+        if random.uniform(0, 1) < 0.3 and field not in ['ngay_sinh', 'ngay_het_han', 'ngay_cap', 'thang_cap', 'nam_cap']:
+            data_dict[field] = random_remove_characters(data_dict[field])
+        elif random.uniform(0, 1) < 0.5 and field not in ['id', 'ngay_sinh', 'ngay_het_han', 'ngay_cap', 'thang_cap', 'nam_cap']:
+            data_dict[field] = random_change_chracters(data_dict[field])
+    return data_dict
+
+
 def get_random_info_front(is_can_cuoc=False, ocr_only=False):
     nguyen_quan, have_prefix = get_rand_nguyen_quan()
     info = {
@@ -200,6 +274,8 @@ def get_random_info_front(is_can_cuoc=False, ocr_only=False):
         "nguyen_quan": nguyen_quan,
         "ho_khau_thuong_tru": get_rand_address(nguyen_quan, have_prefix)
     }
+    if ocr_only and random.uniform(0, 1) < 0.5:
+        info["ho_khau_thuong_tru"] = sample_from_corpus(max_length=120)
     if is_can_cuoc:
         info["gioi_tinh"] = get_rand_gender()
         info["quoc_tich"] = get_rand_nationality()
@@ -207,6 +283,9 @@ def get_random_info_front(is_can_cuoc=False, ocr_only=False):
     # if ocr_only and random.uniform(0, 1) < 0.15:
     #     info["nguyen_quan"] = sample_from_corpus(max_length=60)
     #     info["ho_khau_thuong_tru"] = sample_from_corpus(max_length=70)
+    if ocr_only and random.uniform(0, 1) < 0.05:
+        info = random_data_manipulation(info)
+        # print(info)
     return info
 
 
@@ -215,28 +294,32 @@ def get_random_info_back(is_can_cuoc=False, ocr_only=False):
         "dau_vet": get_rand_di_hinh(),
     }
     if ocr_only and random.uniform(0, 1) < 0.5:
-        d1["dau_vet"] = sample_from_corpus(max_length=80)
+        d1["dau_vet"] = sample_from_corpus(max_length=120)
     if not is_can_cuoc:
         d1["dan_toc"] = get_rand_dan_toc()
         d1["ton_giao"] = get_rand_ton_giao()
         d1["noi_cap"] = get_rand_noi_cap()
     d2 = get_rand_ngay_cap()
-    return dict(d1, **d2)
+    info = dict(d1, **d2)
+    if ocr_only and random.uniform(0, 1) < 0.9:
+        info = random_data_manipulation(info)
+        # print(info)
+    return info
 
-def create_random_corpus():
-    # info1 = get_random_info_front(is_can_cuoc=random.uniform(0, 1) >= 0.5)
-    # info2 = get_random_info_back(is_can_cuoc=random.uniform(0, 1) >= 0.5)
-    # info1['id'] = info1['id'].replace(' ','')
-    # text = list(info1.values()) + list(info2.values())
-    # return random.choice(text)
-    return get_rand_id().replace(' ','')
 
-class IDCorpus(Corpus):
-    def load(self):
-        pass
+def create_random_corpus(max_line=100):
+    all_text = []
+    for _ in range(max_line):
+        # info1 = get_random_info_front(is_can_cuoc=random.uniform(0, 1) >= 0.5)
+        # info2 = get_random_info_back(is_can_cuoc=random.uniform(0, 1) >= 0.5)
+        # info1['id'] = info1['id'].replace(' ','')
+        # text = list(info1.values()) + list(info2.values())
+        # all_text.extend(text)
+        all_text.append(get_rand_id().replace(' ', ''))
+    with open('corpus.txt', 'w') as f:
+        for each in all_text:
+            f.write("%s\n" % each)
 
-    def get_sample(self, img_index):
-        return create_random_corpus()
 
 if __name__ == "__main__":
     # for _ in range(100):
