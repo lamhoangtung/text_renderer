@@ -1,72 +1,750 @@
+data/fonts/vie/Lato-HeavyItalic.ttf
+data/fonts/vie/AllerDisplay.ttf
+data/fonts/vie/VTEKTI.TTF
+data/fonts/vie/VNCENTN.TTF
+data/fonts/vie/UTM ClassizismAntiqua.ttf
+data/fonts/vie/VCOURI.TTF
+data/fonts/vie/UTM Erie Black.ttf
 data/fonts/vie/comicbd.ttf
+data/fonts/vie/UVNDaLat_R.TTF
+data/fonts/vie/UTM Libel KT.ttf
+data/fonts/vie/Lato-Italic.ttf
+data/fonts/vie/UVNBucThu.TTF
+data/fonts/vie/VNARABIA.TTF
+data/fonts/vie/VZAP.TTF
+data/fonts/vie/UVNThuTu.TTF
+data/fonts/vie/UTM Guanine.ttf
+data/fonts/vie/UVNVan_B.TTF
+data/fonts/vie/VPSPTTHT.TTF
+data/fonts/vie/UTM FacebookK&TBoldItalic.ttf
+data/fonts/vie/VNAVANB.TTF
+data/fonts/vie/UTM Amherst.ttf
+data/fonts/vie/UVNAnhHai_BI.TTF
+data/fonts/vie/UVNSaigon_BI.TTF
+data/fonts/vie/VNI-OngdoHL.ttf
+data/fonts/vie/UVNKyThuat.TTF
+data/fonts/vie/Roboto-Medium.ttf
+data/fonts/vie/VNI-Truck.ttf
+data/fonts/vie/UVNAiCapNhe.TTF
+data/fonts/vie/UTM Duepuntozero.ttf
 data/fonts/vie/Trixi Pro Lig.ttf
-data/fonts/vie/VNI-Alex.ttf
-data/fonts/vie/VNI-Sandy.ttf
-data/fonts/vie/VNI-Machina.ttf
+data/fonts/vie/VAVOBI.TTF
+data/fonts/vie/VMARIAGE.TTF
+data/fonts/vie/VPALATIN.TTF
+data/fonts/vie/VNMEMO.TTF
+data/fonts/vie/Walkway_UltraBold.ttf
+data/fonts/vie/UTM LinotypeZapfino KT.ttf
+data/fonts/vie/VHOBO.TTF
+data/fonts/vie/UTM Wedding K&T.ttf
+data/fonts/vie/UTM Akashi.ttf
+data/fonts/vie/VCENTI.TTF
+data/fonts/vie/UTM NguyenHa 02.ttf
+data/fonts/vie/VPSLAKAT.TTF
+data/fonts/vie/UVNVanChuongNang_R.TTF
+data/fonts/vie/Raleway-BoldItalic.ttf
+data/fonts/vie/UTM Sloop 1.ttf
+data/fonts/vie/VAPTIMB.TTF
+data/fonts/vie/Lato-LightItalic.ttf
+data/fonts/vie/UTM God's WordBoldItalic.ttf
+data/fonts/vie/UTM Iron Gothic.ttf
+data/fonts/vie/VTIMESI.TTF
+data/fonts/vie/Roboto-Light.ttf
+data/fonts/vie/VPSBHOT.TTF
+data/fonts/vie/UTM Nokia StandardB.ttf
+data/fonts/vie/VNKOALA.TTF
+data/fonts/vie/UVNVietSach_BI.TTF
+data/fonts/vie/UVNHongHaHep_BI.TTF
+data/fonts/vie/VNGOTHIC.TTF
+data/fonts/vie/Raleway-MediumItalic.ttf
 data/fonts/vie/palab.ttf
+data/fonts/vie/Aller_Rg.ttf
+data/fonts/vie/UTM EdwardianKT.ttf
+data/fonts/vie/UVNSaigon_R.TTF
+data/fonts/vie/UVNHongHa_I.TTF
+data/fonts/vie/UTM Gill Sans_Con.ttf
+data/fonts/vie/VNCOUR.TTF
+data/fonts/vie/VNIGREEC.TTF
 data/fonts/vie/P22 Typewriter Regular.ttf
+data/fonts/vie/VNEXOTIC.TTF
+data/fonts/vie/VCORONET.TTF
+data/fonts/vie/UVNViVi.TTF
+data/fonts/vie/UVNThanhBinh.TTF
+data/fonts/vie/VBROADW.TTF
+data/fonts/vie/UTM TimesItalic.ttf
 data/fonts/vie/arialbd.ttf
+data/fonts/vie/VNSOUTHN.TTF
+data/fonts/vie/VHELVEB.TTF
 data/fonts/vie/couri.ttf
+data/fonts/vie/OpenSans-Semibold.ttf
+data/fonts/vie/DroidSans.ttf
+data/fonts/vie/Raleway-ThinItalic.ttf
+data/fonts/vie/VPSGCT.TTF
+data/fonts/vie/UVNMinhMap.TTF
+data/fonts/vie/Raleway-ExtraLight.ttf
+data/fonts/vie/Lato-Thin.ttf
+data/fonts/vie/UVNBayBuomHep_B.TTF
+data/fonts/vie/VNI-Zap.TTF
+data/fonts/vie/UVNMoiHong.TTF
 data/fonts/vie/scripti.ttf
+data/fonts/vie/UVNNhan_B.TTF
 data/fonts/vie/SP3 - Traveling Typewriter.otf
+data/fonts/vie/VMELII.TTF
+data/fonts/vie/VKUNB.TTF
+data/fonts/vie/VPSCBT.TTF
+data/fonts/vie/UVNThayGiao_I.TTF
+data/fonts/vie/FFF_Tusj.ttf
+data/fonts/vie/VNI-Briquet.ttf
+data/fonts/vie/UVNLacLongQuan_B.TTF
+data/fonts/vie/UVNBachTuyet_R.TTF
+data/fonts/vie/VTIMESN.TTF
+data/fonts/vie/UVNDamCuoi_H.TTF
+data/fonts/vie/VNCOURI.TTF
+data/fonts/vie/UVNButLong1.TTF
+data/fonts/vie/VNI 24 Love.ttf
+data/fonts/vie/UVNHongHa_BI.TTF
+data/fonts/vie/VCOURII.TTF
+data/fonts/vie/UTM AvoBold_Italic.ttf
+data/fonts/vie/VNIDOS.TTF
+data/fonts/vie/UVNGiaDinhHep_BI.TTF
+data/fonts/vie/VCENTN.TTF
+data/fonts/vie/Lato-Bold.ttf
+data/fonts/vie/UVNVienDu.TTF
+data/fonts/vie/Lato-Black.ttf
 data/fonts/vie/courbi.ttf
+data/fonts/vie/UTM God's WordR.ttf
+data/fonts/vie/UTM Swashes.ttf
+data/fonts/vie/Walkway_Oblique.ttf
+data/fonts/vie/UTM Diana.ttf
+data/fonts/vie/VGOUDYB.TTF
+data/fonts/vie/UTM HelveBold_Italic.ttf
+data/fonts/vie/UTM Cabaret.ttf
+data/fonts/vie/Vni 25 Ambiance BT Swash.ttf
+data/fonts/vie/RobotoCondensed-Bold.ttf
+data/fonts/vie/UVNDoiMoi.TTF
+data/fonts/vie/UVNVan_R.TTF
+data/fonts/vie/UVNBachDangNang_R.TTF
 data/fonts/vie/vuTimesBold.ttf
-data/fonts/vie/VNI-Springtime.ttf
+data/fonts/vie/VMURRAYN.TTF
+data/fonts/vie/VKORINI.TTF
+data/fonts/vie/UTM Aptima.ttf
+data/fonts/vie/UVNGioMayNhe_R.TTF
+data/fonts/vie/Vnthfapf.TTF
+data/fonts/vie/UVNNhatKy_I.TTF
+data/fonts/vie/UVNDaLat_B.TTF
+data/fonts/vie/VCOMMERC.TTF
+data/fonts/vie/DroidSans-Bold.ttf
+data/fonts/vie/VTEKTN.TTF
+data/fonts/vie/VNI-Netbut.ttf
+data/fonts/vie/VNCENTI.TTF
+data/fonts/vie/VPSCHDOT.TTF
+data/fonts/vie/UVNCatBienNhe_R.TTF
+data/fonts/vie/UVNButLong2.TTF
+data/fonts/vie/UVNBachTuyet_B.TTF
+data/fonts/vie/UVNLacLongQuan_R.TTF
+data/fonts/vie/UTM DaxMedium.ttf
+data/fonts/vie/UVNAnhHaiNhe_I.TTF
+data/fonts/vie/UVNThayGiao_BI.TTF
+data/fonts/vie/Raleway-Medium.ttf
+data/fonts/vie/UTM AptimaItalic.ttf
+data/fonts/vie/VNTIFH.TTF
+data/fonts/vie/UVNTinTuc_I.TTF
+data/fonts/vie/VNI-Qwigley.ttf
+data/fonts/vie/UVNMangCau_I.TTF
+data/fonts/vie/Vnthfap2.TTF
+data/fonts/vie/RobotoCondensed-Light.ttf
+data/fonts/vie/Caviar_Dreams_Bold.ttf
 data/fonts/vie/bigapple.ttf
-data/fonts/vie/Trixi Pro Ext.ttf
+data/fonts/vie/VMELIN.TTF
+data/fonts/vie/UVNMucCham.TTF
+data/fonts/vie/UVNNhan_R.TTF
+data/fonts/vie/VNI-Zirkon.ttf
+data/fonts/vie/VPALATI.TTF
+data/fonts/vie/VAVOB.TTF
+data/fonts/vie/VPSQTRT.TTF
+data/fonts/vie/VPSHUET.TTF
+data/fonts/vie/VUNIVER.TTF
+data/fonts/vie/UTM Staccato.ttf
+data/fonts/vie/UVNBayBuomHep_R.TTF
+data/fonts/vie/UVNChinhLuan_I.TTF
+data/fonts/vie/UTM Deutsch Gothic.ttf
 data/fonts/vie/trebucbi.ttf
+data/fonts/vie/VAUCHON.TTF
+data/fonts/vie/UTM Neo Sans IntelBold_Italic.ttf
+data/fonts/vie/UTM AptimaBoldItalic.ttf
+data/fonts/vie/VNSOUTHI.TTF
 data/fonts/vie/merscrb.ttf
+data/fonts/vie/Raleway-SemiBold.ttf
+data/fonts/vie/Lato-SemiboldItalic.ttf
 data/fonts/vie/vuTimesItalic.ttf
-data/fonts/vie/antique.ttf
+data/fonts/vie/VNANTIQB.TTF
+data/fonts/vie/UTM Swiss CondensedBold.ttf
+data/fonts/vie/UVNAnhSang.TTF
+data/fonts/vie/Vnthfap3.TTF
 data/fonts/vie/Trixi Pro Regular.ttf
+data/fonts/vie/UVNAnhHai_I.TTF
 data/fonts/vie/akronism.ttf
+data/fonts/vie/VGARAMB.TTF
+data/fonts/vie/Roboto-Regular.ttf
+data/fonts/vie/UVNSaigon_B.TTF
+data/fonts/vie/VSCRIPT.TTF
+data/fonts/vie/UVNBayBuom_N.TTF
+data/fonts/vie/VNI-Thuphap.ttf
+data/fonts/vie/UVNGioMay_B.TTF
+data/fonts/vie/UTM FacebookB K&T.ttf
+data/fonts/vie/Vni 29 BrushMe.ttf
+data/fonts/vie/UTM Neo Sans Intel_Italic.ttf
+data/fonts/vie/UTM Cookies.ttf
 data/fonts/vie/vuArialBold.ttf
+data/fonts/vie/verdanab.ttf
+data/fonts/vie/UTM Omni.ttf
+data/fonts/vie/VBOOKMB.TTF
+data/fonts/vie/Lato-HairlineItalic.ttf
+data/fonts/vie/VBODON.TTF
+data/fonts/vie/UTM Candombe.ttf
+data/fonts/vie/VREVUE.TTF
+data/fonts/vie/UVNGiaDinh_B.TTF
+data/fonts/vie/UTM Futura Extra.ttf
+data/fonts/vie/UVNThangGieng_I.TTF
+data/fonts/vie/UVNBachDang_R.TTF
+data/fonts/vie/VHELVCB.TTF
+data/fonts/vie/VFRANKO.TTF
+data/fonts/vie/UVNBaiSau_R.TTF
+data/fonts/vie/Raleway-ExtraBold.ttf
+data/fonts/vie/UVNChimBienNang.TTF
+data/fonts/vie/UTM Zirkon.ttf
+data/fonts/vie/UTM IsadoraR.ttf
+data/fonts/vie/Roboto-MediumItalic.ttf
 data/fonts/vie/crystal.ttf
+data/fonts/vie/UVNMangTre.TTF
+data/fonts/vie/UVNGiayTrang_R.TTF
 data/fonts/vie/arrusb.ttf
+data/fonts/vie/VBODONB.TTF
+data/fonts/vie/VPRESENT.TTF
+data/fonts/vie/UTM Flamenco.ttf
+data/fonts/vie/Raleway-ExtraBoldItalic.ttf
 data/fonts/vie/aachenb.ttf
+data/fonts/vie/UTM Caviar.ttf
 data/fonts/vie/vuArial.ttf
+data/fonts/vie/VNARIALI.TTF
+data/fonts/vie/UTM Dinh Tran.ttf
+data/fonts/vie/UTM Cool Blue.ttf
+data/fonts/vie/VNI-AmbianceBTSwash.ttf
+data/fonts/vie/UTMFacebookK&TItalic.ttf
+data/fonts/vie/UVNBenXuan_B.TTF
+data/fonts/vie/UVNCatBien_R.TTF
+data/fonts/vie/UVNGiaDinh_BI.TTF
+data/fonts/vie/VMELIBI.TTF
+data/fonts/vie/VALLERGO.TTF
+data/fonts/vie/UTM ViceroyJF.ttf
+data/fonts/vie/UVNThoiDai1.TTF
+data/fonts/vie/VNTIMEB.TTF
+data/fonts/vie/UVNVietSach_B.TTF
+data/fonts/vie/UVNSangSong_B.TTF
+data/fonts/vie/UVNVanChuong_R.TTF
+data/fonts/vie/UTM Bustamalaka.ttf
+data/fonts/vie/UTM Ambrosia.ttf
+data/fonts/vie/UVNBachTuyetNang_I.TTF
+data/fonts/vie/VNLINUS.TTF
+data/fonts/vie/VNIRUSSI.TTF
 data/fonts/vie/pala.ttf
 data/fonts/vie/tahomabd.ttf
+data/fonts/vie/UVNSachVo_B.TTF
+data/fonts/vie/VNI-Love.ttf
+data/fonts/vie/UVNBaiHoc_R.TTF
+data/fonts/vie/RobotoCondensed-Italic.ttf
+data/fonts/vie/UTM HelvetIns.ttf
+data/fonts/vie/UVNHaiLong.TTF
+data/fonts/vie/UVNThoiNay_I.TTF
+data/fonts/vie/UTM Dai Co Viet.ttf
+data/fonts/vie/UTM Scriptina KT.ttf
+data/fonts/vie/UVNHuongQue_N.TTF
+data/fonts/vie/UVNGiaDinhHep_B.TTF
+data/fonts/vie/VNI-HelveB.TTF
+data/fonts/vie/UTM BryantLG_B.ttf
+data/fonts/vie/VNCOMSI.TTF
+data/fonts/vie/UTM DuepuntozeroBold.ttf
+data/fonts/vie/VNI-Souvir.TTF
+data/fonts/vie/UTM Thanh Nhac TL.ttf
+data/fonts/vie/UVNLaXanh_R.TTF
+data/fonts/vie/UVNConThuy.TTF
+data/fonts/vie/CaviarDreams_BoldItalic.ttf
+data/fonts/vie/UVNTinTucHepThem_B.TTF
+data/fonts/vie/UTM SeagullBoldItalic.ttf
+data/fonts/vie/UTM SeagullBold.ttf
 data/fonts/vie/zapfchmi.ttf
+data/fonts/vie/VLINUSN.TTF
+data/fonts/vie/UTM A&S Graceland.ttf
 data/fonts/vie/times.ttf
-data/fonts/vie/floral.ttf
+data/fonts/vie/UTM Mabella.ttf
+data/fonts/vie/VNHARR.TTF
 data/fonts/vie/cour.ttf
-data/fonts/vie/VNI-Annabelle.ttf
+data/fonts/vie/UVNThayGiaoNang_R.TTF
+data/fonts/vie/Walkway_Oblique_UltraBold.ttf
+data/fonts/vie/VNARIANB.TTF
+data/fonts/vie/UVNHoaDao.TTF
+data/fonts/vie/UVNMangCau_BI.TTF
+data/fonts/vie/UVNTinTucHep_R.TTF
 data/fonts/vie/comic.ttf
+data/fonts/vie/UVNHongHaHep_B.TTF
+data/fonts/vie/UTM God's WordRItalic.ttf
+data/fonts/vie/VNPRES.TTF
+data/fonts/vie/VNI-JackieO.ttf
+data/fonts/vie/Aller_Lt.ttf
+data/fonts/vie/VAWCHON.TTF
+data/fonts/vie/UVNThayGiaoNhe_R.TTF
+data/fonts/vie/Lato-Regular.ttf
+data/fonts/vie/RobotoCondensed-BoldItalic.ttf
+data/fonts/vie/UTM Ong Do Tre.ttf
 data/fonts/vie/brushsbi.ttf
+data/fonts/vie/VPSSTAT.TTF
+data/fonts/vie/UVNThoiDai2.TTF
 data/fonts/vie/trebuc.ttf
+data/fonts/vie/OpenSans-Light.ttf
+data/fonts/vie/VNTIMEBI.TTF
 data/fonts/vie/windsorb.ttf
+data/fonts/vie/VNI-Saliere.ttf
+data/fonts/vie/Vntfap01.ttf
+data/fonts/vie/Raleway-Regular.ttf
+data/fonts/vie/VNI-Thanhcao.TTF
+data/fonts/vie/UVNCatBien_B.TTF
+data/fonts/vie/Raleway-ExtraLightItalic.ttf
+data/fonts/vie/VNI-Linus.TTF
+data/fonts/vie/UTM Fleur.ttf
+data/fonts/vie/UVNBenXuan_R.TTF
+data/fonts/vie/UVNBoQuen.TTF
+data/fonts/vie/UTM AmericanaB.ttf
+data/fonts/vie/Lato-Hairline.ttf
+data/fonts/vie/VNARIALN.TTF
+data/fonts/vie/UTM Avo.ttf
+data/fonts/vie/VNI-Thuphap3.ttf
+data/fonts/vie/Sansation-BoldItalic.ttf
+data/fonts/vie/UVNBuiDoi.TTF
+data/fonts/vie/VNCENTBI.TTF
+data/fonts/vie/VNIWIN.TTF
+data/fonts/vie/UVNAiCapNang.TTF
+data/fonts/vie/UVNKeChuyen3.TTF
+data/fonts/vie/UVNGiayTrang_B.TTF
+data/fonts/vie/UVNThanhPhoNang.TTF
+data/fonts/vie/UVNBaiSau_B.TTF
+data/fonts/vie/UVNKeChuyen2.TTF
+data/fonts/vie/VVIVI.TTF
+data/fonts/vie/UVNMauTim2.TTF
+data/fonts/vie/OpenSans-Italic.ttf
+data/fonts/vie/UTM Times.ttf
+data/fonts/vie/UVNBachDang_B.TTF
+data/fonts/vie/Raleway-SemiBoldItalic.ttf
+data/fonts/vie/UVNGiaDinh_R.TTF
+data/fonts/vie/VNI-Thuphap2.ttf
+data/fonts/vie/Lato-BlackItalic.ttf
+data/fonts/vie/UTM AptimaBold.ttf
+data/fonts/vie/UVNHaiBaTrung.TTF
+data/fonts/vie/UTM EdwardianB.ttf
 data/fonts/vie/timesbd.ttf
-data/fonts/vie/VNI-Mandalay.ttf
+data/fonts/vie/UVNMangCauNang_R.TTF
+data/fonts/vie/Sansation-Light.ttf
+data/fonts/vie/UVNGiongSong_BI.TTF
+data/fonts/vie/UTM French Vanilla.ttf
+data/fonts/vie/UVNPhuongTay.TTF
+data/fonts/vie/VAGRB.TTF
+data/fonts/vie/VNFREE.TTF
+data/fonts/vie/UVNGioMay_R.TTF
 data/fonts/vie/flowdeco.ttf
+data/fonts/vie/UVNNguyenDu.TTF
+data/fonts/vie/VSWISC.TTF
+data/fonts/vie/UTM Aristote.ttf
+data/fonts/vie/VNCORSI.TTF
+data/fonts/vie/UTMTimesBold.ttf
+data/fonts/vie/UVNThoiNayNang_R.TTF
+data/fonts/vie/UVNNhanNang_R.TTF
+data/fonts/vie/VNHELVS.TTF
+data/fonts/vie/VTIMESBI.TTF
+data/fonts/vie/UVNHongHaHep_R.TTF
+data/fonts/vie/UTM CenturBoldItalic.ttf
+data/fonts/vie/UTM Loko.ttf
+data/fonts/vie/UVNTinTucHep_B.TTF
+data/fonts/vie/UVNMayChuP_I.TTF
 data/fonts/vie/broadb.ttf
+data/fonts/vie/VPARK.TTF
+data/fonts/vie/VPSDONAT.TTF
+data/fonts/vie/VNI-Univer.TTF
 data/fonts/vie/timesi.ttf
-data/fonts/vie/VNI-AlexBrush.ttf
+data/fonts/vie/Lato-Semibold.ttf
+data/fonts/vie/Raleway-Light.ttf
+data/fonts/vie/UTM Facebook.ttf
+data/fonts/vie/UTM Ong Do Gia.ttf
+data/fonts/vie/Walkway_Oblique_SemiBold.ttf
+data/fonts/vie/UVNMotMoi.TTF
+data/fonts/vie/UVNTinTucHepThem_R.TTF
+data/fonts/vie/UVNLaXanh_B.TTF
+data/fonts/vie/UVNKeChuyen1.TTF
+data/fonts/vie/UVNGiongSong_I.TTF
+data/fonts/vie/UVNMauTim1.TTF
+data/fonts/vie/VNLUCIDA.TTF
+data/fonts/vie/UVNGiaDinhHep_R.TTF
+data/fonts/vie/VNI 22 JackieO.ttf
+data/fonts/vie/VBODONP.TTF
+data/fonts/vie/UTM CenturBold.ttf
+data/fonts/vie/VNI-Thuphap1.ttf
+data/fonts/vie/UTM Helve.ttf
+data/fonts/vie/UTM Faltura.ttf
+data/fonts/vie/UVNThoiNay_BI.TTF
+data/fonts/vie/UVNSachVo_R.TTF
+data/fonts/vie/UVNTinTucHep_BI.TTF
+data/fonts/vie/UTM A&S Signwriter.ttf
+data/fonts/vie/UVNBaiHoc_B.TTF
+data/fonts/vie/VDUFFY.TTF
+data/fonts/vie/UVNTinTucNhe_I.TTF
+data/fonts/vie/VAZTEK.TTF
+data/fonts/vie/UTM A&S Heartbeat.ttf
+data/fonts/vie/Aller_BdIt.ttf
+data/fonts/vie/UVNChinhLuan_BI.TTF
+data/fonts/vie/VNI-Script.TTF
+data/fonts/vie/UVNVanChuong_B.TTF
+data/fonts/vie/UTM Raven.ttf
+data/fonts/vie/UVNVietSach_R.TTF
+data/fonts/vie/UVNSangSong_R.TTF
+data/fonts/vie/UTM HelveBold.ttf
+data/fonts/vie/UTM Arruba.ttf
+data/fonts/vie/UVNNhanNang_I.TTF
+data/fonts/vie/UVNThoiNayNang_I.TTF
+data/fonts/vie/VNAVANBI.TTF
+data/fonts/vie/UVNBachDang_BI.TTF
+data/fonts/vie/Sansation-LightItalic.ttf
+data/fonts/vie/CaviarDreams.ttf
+data/fonts/vie/UVNHongHaHep_I.TTF
+data/fonts/vie/VNBAHAB.TTF
+data/fonts/vie/VNARIANI.TTF
+data/fonts/vie/UVNMayChuP_R.TTF
 data/fonts/vie/vuTimes.ttf
-data/fonts/vie/VNI-Chops Normal.ttf
+data/fonts/vie/UTM God's WordBold.ttf
+data/fonts/vie/UTM TallingBold.ttf
+data/fonts/vie/VNBLACK.TTF
+data/fonts/vie/UTM Alba Matter.ttf
+data/fonts/vie/UTM Kabel KT.ttf
+data/fonts/vie/VNI-Tubes.TTF
+data/fonts/vie/VNI-HelveI.TTF
+data/fonts/vie/UVNGiaDinhHep_I.TTF
+data/fonts/vie/UVNGiongSong_R.TTF
+data/fonts/vie/UVNHuongQue_R.TTF
+data/fonts/vie/UVNThoiNay_B.TTF
+data/fonts/vie/UTM Niagara.ttf
+data/fonts/vie/VINHAN.TTF
+data/fonts/vie/UVNSachVo_I.TTF
+data/fonts/vie/VPSLOKHT.TTF
+data/fonts/vie/UTM Pacific Standard.ttf
+data/fonts/vie/UTM Eremitage.ttf
+data/fonts/vie/UVNTinTucNhe_R.TTF
+data/fonts/vie/Lato-MediumItalic.ttf
+data/fonts/vie/RobotoCondensed-LightItalic.ttf
+data/fonts/vie/VPSANXUT.TTF
+data/fonts/vie/UVNThangVu.TTF
+data/fonts/vie/UVNVietSach_I.TTF
+data/fonts/vie/VNTIMEI.TTF
+data/fonts/vie/VNI 08 Springtime2.ttf
+data/fonts/vie/UTM ThuPhap Thien An.ttf
+data/fonts/vie/UTM Swiss 721 Black Condensed.ttf
+data/fonts/vie/UTM Swiss Condensed.ttf
 data/fonts/vie/vuArialItalic.ttf
+data/fonts/vie/Vni 30 Shishoni Brush.ttf
+data/fonts/vie/UVNKieu_B.TTF
 data/fonts/vie/timesbi.ttf
+data/fonts/vie/VNI-Viettay.ttf
+data/fonts/vie/OpenSans-ExtraBold.ttf
+data/fonts/vie/VNARIALB.TTF
+data/fonts/vie/VNARIABI.TTF
+data/fonts/vie/UTM Netmuc KT.ttf
+data/fonts/vie/UTM CenturItalic.ttf
+data/fonts/vie/UTM Khuccamta.ttf
+data/fonts/vie/VNINET.TTF
 data/fonts/vie/arial.ttf
+data/fonts/vie/aztekb.ttf
+data/fonts/vie/UVNNhatKy_BI.TTF
+data/fonts/vie/UVNBaiSau_N.TTF
+data/fonts/vie/UVNHoaTay1.TTF
+data/fonts/vie/VHELVCI.TTF
 data/fonts/vie/trebucit.ttf
+data/fonts/vie/VSOUVBI.TTF
+data/fonts/vie/UVNGiaDinh_I.TTF
+data/fonts/vie/UTM Bienvenue.ttf
+data/fonts/vie/VCENTBI.TTF
+data/fonts/vie/UVNCoDien_R.TTF
+data/fonts/vie/VBOOKMI.TTF
+data/fonts/vie/Pacifico.ttf
+data/fonts/vie/UTM Yves KT.ttf
+data/fonts/vie/UTM Centur.ttf
+data/fonts/vie/UVNMangCauNang_I.TTF
+data/fonts/vie/UTM Amerika Sans.ttf
+data/fonts/vie/verdanai.ttf
+data/fonts/vie/UTM Colossalis.ttf
+data/fonts/vie/UTM Alexander.ttf
+data/fonts/vie/UVNThanhPho_B.TTF
+data/fonts/vie/UVNGioMay_I.TTF
 data/fonts/vie/microsslv.ttf
+data/fonts/vie/OpenSans-LightItalic.ttf
+data/fonts/vie/Raleway-Black.ttf
+data/fonts/vie/UVNVanChuong_I.TTF
+data/fonts/vie/VFREE.TTF
+data/fonts/vie/UVNSangSong_N.TTF
+data/fonts/vie/CaviarDreams_Italic.ttf
+data/fonts/vie/VNARIAL.TTF
+data/fonts/vie/UVNBachTuyetNang_R.TTF
+data/fonts/vie/UTM Habano.ttf
+data/fonts/vie/VAPTIMBI.TTF
+data/fonts/vie/VPSTHT.TTF
+data/fonts/vie/UVNBanhMi.TTF
+data/fonts/vie/UVNBachTuyet_BI.TTF
+data/fonts/vie/verdanaz.ttf
+data/fonts/vie/VNCOURBI.TTF
+data/fonts/vie/UVNBaiHoc_I.TTF
+data/fonts/vie/UVNThoiNay_R.TTF
+data/fonts/vie/UTM Cooper BlackItalic.ttf
+data/fonts/vie/UTM American Sans.ttf
+data/fonts/vie/UTM Androgyne.ttf
+data/fonts/vie/UVNMayChuP_BI.TTF
+data/fonts/vie/UVNHuongQue_B.TTF
+data/fonts/vie/UVNGiongSong_B.TTF
+data/fonts/vie/UVNNhan_BI.TTF
+data/fonts/vie/Walkway_Oblique_Bold.ttf
+data/fonts/vie/UVNLaXanh_I.TTF
+data/fonts/vie/UVNLYDO_.TTF
 data/fonts/vie/starstrp.ttf
 data/fonts/vie/GRGAREF.TTF
+data/fonts/vie/VKORIN.TTF
+data/fonts/vie/VNI-Diudang.ttf
+data/fonts/vie/UVNThayGiaoNang_I.TTF
+data/fonts/vie/UTM AmericanaBEx.ttf
+data/fonts/vie/Roboto-ThinItalic.ttf
+data/fonts/vie/UTM Windsor BT.ttf
+data/fonts/vie/Raleway-BlackItalic.ttf
+data/fonts/vie/RobotoCondensed-Regular.ttf
+data/fonts/vie/UVNMayChuP_B.TTF
+data/fonts/vie/Lato-Heavy.ttf
+data/fonts/vie/UVNLaXanh_BI.TTF
+data/fonts/vie/Vni 23 Qwigley.ttf
+data/fonts/vie/Aller_Bd.ttf
+data/fonts/vie/UVNTinTucHep_I.TTF
+data/fonts/vie/VNLINCOL.TTF
+data/fonts/vie/UVNThayGiaoNhe_I.TTF
+data/fonts/vie/OpenSans-Bold.ttf
 data/fonts/vie/palabi.ttf
+data/fonts/vie/VGARAMBI.TTF
+data/fonts/vie/VNI-Trung Kien.TTF
+data/fonts/vie/VNARIS.TTF
+data/fonts/vie/Roboto-BoldItalic.ttf
+data/fonts/vie/VKUNBI.TTF
+data/fonts/vie/VNI-BrushMe.ttf
+data/fonts/vie/UVNThanhPho_R.TTF
+data/fonts/vie/VNI-Butlong.ttf
+data/fonts/vie/VNTIME.TTF
+data/fonts/vie/VNI-Slogan.ttf
+data/fonts/vie/VBOOKMN.TTF
+data/fonts/vie/UVNCoDien_B.TTF
+data/fonts/vie/VNI-KorinB.TTF
+data/fonts/vie/UVNThangGieng_R.TTF
+data/fonts/vie/UVNBaiHoc_BI.TTF
+data/fonts/vie/UVNBachDang_I.TTF
+data/fonts/vie/UTM Pierre.ttf
+data/fonts/vie/VHELVCN.TTF
+data/fonts/vie/UVNDzungDakao.TTF
+data/fonts/vie/UTM Americana.ttf
+data/fonts/vie/VBODONBI.TTF
+data/fonts/vie/VNANTIQ.TTF
+data/fonts/vie/VNPARK.TTF
+data/fonts/vie/VNI-Korin.TTF
+data/fonts/vie/UVNKieu_R.TTF
+data/fonts/vie/VCOURIBI.TTF
+data/fonts/vie/VNI-Disney.ttf
+data/fonts/vie/UTM Brushtip-C.ttf
+data/fonts/vie/OpenSans-SemiboldItalic.ttf
+data/fonts/vie/VCOOPERB.TTF
+data/fonts/vie/UVNCatBien_I.TTF
+data/fonts/vie/UTM FacebookR K&T.ttf
+data/fonts/vie/VNI-Thufapfan.ttf
+data/fonts/vie/Roboto-LightItalic.ttf
+data/fonts/vie/VNI-Vivi.TTF
+data/fonts/vie/VSOUVB.TTF
 data/fonts/vie/circle.ttf
-data/fonts/vie/rockston.ttf
+data/fonts/vie/VNTEKN.TTF
+data/fonts/vie/Aller_LtIt.ttf
+data/fonts/vie/UVNAnhHaiNhe_R.TTF
 data/fonts/vie/tahoma.ttf
+data/fonts/vie/VNI-Bendigo.ttf
+data/fonts/vie/UTM Impact.ttf
+data/fonts/vie/UVNThayGiao_B.TTF
+data/fonts/vie/UTM Yves KT_Bold_Italic.ttf
+data/fonts/vie/UVNBaLe.TTF
+data/fonts/vie/UVNTinTuc_R.TTF
+data/fonts/vie/UVNAiCap_R.TTF
+data/fonts/vie/UVNVungTau.TTF
+data/fonts/vie/UVNMangCau_R.TTF
+data/fonts/vie/VMELIB.TTF
+data/fonts/vie/UVNNhan_I.TTF
+data/fonts/vie/VBODONII.TTF
+data/fonts/vie/VNI-Maria.TTF
+data/fonts/vie/VAVON.TTF
+data/fonts/vie/UTM AmericanaItalic.ttf
+data/fonts/vie/UTM Novido.ttf
+data/fonts/vie/VNSOUTHD.TTF
+data/fonts/vie/UVNChinhLuan_R.TTF
+data/fonts/vie/VHELVCBI.TTF
+data/fonts/vie/Lato-BoldItalic.ttf
 data/fonts/vie/circle3d.ttf
 data/fonts/vie/trebucbd.ttf
+data/fonts/vie/VNI-Baybuom.ttf
+data/fonts/vie/UTM Sarah.ttf
+data/fonts/vie/VHELVEI.TTF
+data/fonts/vie/VNI 26 Saliere.ttf
+data/fonts/vie/VNCLARE.TTF
+data/fonts/vie/VNBODO.TTF
+data/fonts/vie/VPALABI.TTF
+data/fonts/vie/UTM Dax.ttf
+data/fonts/vie/UTM Hanzel.ttf
 data/fonts/vie/architep.ttf
 data/fonts/vie/victoria.ttf
-data/fonts/vie/VNI-Walt Disney.ttf
+data/fonts/vie/UTM Helve_Italic.ttf
+data/fonts/vie/UTM Silk Script.ttf
+data/fonts/vie/VNVOGU.TTF
+data/fonts/vie/UTM Nyala.ttf
+data/fonts/vie/Lato-Light.ttf
+data/fonts/vie/UVNAnhHai_R.TTF
+data/fonts/vie/UVNChimBien_B.TTF
+data/fonts/vie/UTM Nokia Standard.ttf
+data/fonts/vie/VGARAMN.TTF
 data/fonts/vie/ariali.ttf
+data/fonts/vie/UTM Azuki.ttf
+data/fonts/vie/UVNHongHa_B.TTF
+data/fonts/vie/Raleway-LightItalic.ttf
+data/fonts/vie/UVNSachVo_BI.TTF
+data/fonts/vie/UVNBayBuom_B.TTF
 data/fonts/vie/palai.ttf
+data/fonts/vie/Walkway_SemiBold.ttf
+data/fonts/vie/UTM Yves KT_Bold.ttf
+data/fonts/vie/VNI 27 Bendigo.ttf
+data/fonts/vie/VTIMESB.TTF
+data/fonts/vie/OpenSans-ExtraBoldItalic.ttf
+data/fonts/vie/Lato-Medium.ttf
+data/fonts/vie/Raleway-Thin.ttf
+data/fonts/vie/UTM Aquarelle.ttf
+data/fonts/vie/VAPTIMI.TTF
+data/fonts/vie/UTM Neo Sans IntelBold.ttf
+data/fonts/vie/VNI 28 Zirkon.ttf
+data/fonts/vie/UTM Rockwell.ttf
 data/fonts/vie/agoldfac.ttf
+data/fonts/vie/Lato-ThinItalic.ttf
+data/fonts/vie/VCENTB.TTF
+data/fonts/vie/Roboto-Italic.ttf
+data/fonts/vie/UTM Essendine Caps.ttf
+data/fonts/vie/Vnhltfap.ttf
+data/fonts/vie/UTM Cooper Black.ttf
+data/fonts/vie/UTM Mobifone KT.ttf
+data/fonts/vie/VPSPHDIT.TTF
+data/fonts/vie/VNAVAN.TTF
+data/fonts/vie/UVNTinTuc_BI.TTF
+data/fonts/vie/UTM Neo Sans Intel.ttf
+data/fonts/vie/VNI-ShishoniBrush.ttf
 data/fonts/vie/vuArialBoldItalic.ttf
+data/fonts/vie/Roboto-BlackItalic.ttf
+data/fonts/vie/UVNDungDan.TTF
+data/fonts/vie/VDURHAM.TTF
+data/fonts/vie/VGOUDYN.TTF
+data/fonts/vie/UVNCHUKY.TTF
+data/fonts/vie/UVNDinhHon.TTF
+data/fonts/vie/OpenSans-Regular.ttf
 data/fonts/vie/courbd.ttf
+data/fonts/vie/UTM Conestoga.ttf
+data/fonts/vie/VNAVANI.TTF
+data/fonts/vie/UVNBinhDuong.TTF
+data/fonts/vie/UTM AvoItalic.ttf
+data/fonts/vie/UTM Alberta Heavy.ttf
+data/fonts/vie/VMURRAYB.TTF
+data/fonts/vie/UVNBachDangNang_I.TTF
+data/fonts/vie/UTMTimesBold Italic.ttf
+data/fonts/vie/UVNNhatKy_R.TTF
+data/fonts/vie/UVNGioMayNhe_I.TTF
+data/fonts/vie/UVNHOAKY.TTF
+data/fonts/vie/VNI-Hobo.TTF
+data/fonts/vie/UTM Demian KT.ttf
+data/fonts/vie/UTM Billhead 1910.ttf
+data/fonts/vie/Sansation-Regular.ttf
+data/fonts/vie/OpenSans-BoldItalic.ttf
+data/fonts/vie/Roboto-Bold.ttf
+data/fonts/vie/UVNCatBienNhe_I.TTF
+data/fonts/vie/VNCOUR2.TTF
+data/fonts/vie/UVNDamCuoi_R.TTF
+data/fonts/vie/UVNBayBuom_R.TTF
+data/fonts/vie/UVNHongHa_R.TTF
+data/fonts/vie/VGARAMI.TTF
+data/fonts/vie/UVNSaigon_I.TTF
+data/fonts/vie/UVNChimBien_R.TTF
+data/fonts/vie/UTM BryantLG.ttf
+data/fonts/vie/UTM Flavour.ttf
+data/fonts/vie/UTM Cafeta.ttf
+data/fonts/vie/UVNAnhHai_B.TTF
+data/fonts/vie/VNCOOP.TTF
+data/fonts/vie/Roboto-Thin.ttf
+data/fonts/vie/Walkway_Oblique_Black.ttf
+data/fonts/vie/VNMUSTI.TTF
+data/fonts/vie/Raleway-Italic.ttf
+data/fonts/vie/UTM Aurora.ttf
+data/fonts/vie/VDOMCAS.TTF
+data/fonts/vie/VHELVEN.TTF
+data/fonts/vie/VNSOUTHB.TTF
+data/fonts/vie/UTM IsadoraBold.ttf
+data/fonts/vie/UTM Bell.ttf
+data/fonts/vie/Roboto-Black.ttf
+data/fonts/vie/UVNCatBien_BI.TTF
+data/fonts/vie/UVNChinhLuan_B.TTF
+data/fonts/vie/UVNBayBuomHep_N.TTF
+data/fonts/vie/VPSHOBIT.TTF
+data/fonts/vie/VNREVU.TTF
+data/fonts/vie/UTM Agin.ttf
+data/fonts/vie/Sansation-Bold.ttf
 data/fonts/vie/arialbi.ttf
+data/fonts/vie/VAVOI.TTF
+data/fonts/vie/UVNGioMay_BI.TTF
 data/fonts/vie/vuTimesBoldItalic.ttf
-data/fonts/vie/VNI-Scrap Cursive.ttf
-data/fonts/vie/VNI-University.ttf
+data/fonts/vie/UTM Spring.ttf
+data/fonts/vie/UTM Yen Tu.ttf
+data/fonts/vie/UTM Marlboro.ttf
+data/fonts/vie/VKUNN.TTF
+data/fonts/vie/UVNMangCau_B.TTF
+data/fonts/vie/UTM Sharnay.ttf
+data/fonts/vie/UVNAiCap_B.TTF
+data/fonts/vie/UVNTinTuc_B.TTF
+data/fonts/vie/VBOOKMBI.TTF
+data/fonts/vie/UTM Alpine KT.ttf
+data/fonts/vie/Raleway-Bold.ttf
+data/fonts/vie/UVNThayGiao_R.TTF
+data/fonts/vie/VHELVEBI.TTF
+data/fonts/vie/VTUBE.TTF
+data/fonts/vie/UVNBanTay.TTF
+data/fonts/vie/UTM DaxBold.ttf
+data/fonts/vie/UVNBachTuyet_I.TTF
+data/fonts/vie/VSWISEC.TTF
+data/fonts/vie/VNCENTB.TTF
+data/fonts/vie/VNI-HelveBI.TTF
+data/fonts/vie/VKORINB.TTF
+data/fonts/vie/UVNBaiSau_Nh.TTF
+data/fonts/vie/UTM Tam Le.ttf
+data/fonts/vie/UVNMuaThu.TTF
+data/fonts/vie/Sansation-Italic.ttf
+data/fonts/vie/VGOUDYI.TTF
+data/fonts/vie/UTM AvoBold.ttf
+data/fonts/vie/VNUNIV.TTF
+data/fonts/vie/UTM Mother.ttf
+data/fonts/vie/VPALATIB.TTF
+data/fonts/vie/verdana.ttf
+data/fonts/vie/Walkway_Bold.ttf
+data/fonts/vie/VARISON.TTF
+data/fonts/vie/UVNChimBienNhe.TTF
+data/fonts/vie/VBRUSH.TTF
+data/fonts/vie/VKUNM.TTF
+data/fonts/vie/UTM Talling.ttf
+data/fonts/vie/Walkway_Black.ttf
+data/fonts/vie/Aller_It.ttf
+data/fonts/vie/VAPTIMN.TTF
+data/fonts/vie/UTM Alter Gothic.ttf
+data/fonts/vie/VCOURIB.TTF
+data/fonts/vie/VNCOURB.TTF
+data/fonts/vie/UTM Beautiful Caps.ttf
 data/fonts/vie/amazone.ttf
