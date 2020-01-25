@@ -35,7 +35,6 @@ data/fonts/vie/VNMEMO.TTF
 data/fonts/vie/Walkway_UltraBold.ttf
 data/fonts/vie/UTM LinotypeZapfino KT.ttf
 data/fonts/vie/VHOBO.TTF
-data/fonts/vie/UTM Wedding K&T.ttf
 data/fonts/vie/UTM Akashi.ttf
 data/fonts/vie/VCENTI.TTF
 data/fonts/vie/UTM NguyenHa 02.ttf
@@ -155,7 +154,6 @@ data/fonts/vie/RobotoCondensed-Light.ttf
 data/fonts/vie/Caviar_Dreams_Bold.ttf
 data/fonts/vie/bigapple.ttf
 data/fonts/vie/VMELIN.TTF
-data/fonts/vie/UVNMucCham.TTF
 data/fonts/vie/UVNNhan_R.TTF
 data/fonts/vie/VNI-Zirkon.ttf
 data/fonts/vie/VPALATI.TTF
@@ -169,7 +167,6 @@ data/fonts/vie/UVNChinhLuan_I.TTF
 data/fonts/vie/UTM Deutsch Gothic.ttf
 data/fonts/vie/trebucbi.ttf
 data/fonts/vie/VAUCHON.TTF
-data/fonts/vie/UTM Neo Sans IntelBold_Italic.ttf
 data/fonts/vie/UTM AptimaBoldItalic.ttf
 data/fonts/vie/VNSOUTHI.TTF
 data/fonts/vie/merscrb.ttf
@@ -192,7 +189,6 @@ data/fonts/vie/VNI-Thuphap.ttf
 data/fonts/vie/UVNGioMay_B.TTF
 data/fonts/vie/UTM FacebookB K&T.ttf
 data/fonts/vie/Vni 29 BrushMe.ttf
-data/fonts/vie/UTM Neo Sans Intel_Italic.ttf
 data/fonts/vie/UTM Cookies.ttf
 data/fonts/vie/vuArialBold.ttf
 data/fonts/vie/verdanab.ttf
@@ -226,7 +222,6 @@ data/fonts/vie/aachenb.ttf
 data/fonts/vie/UTM Caviar.ttf
 data/fonts/vie/vuArial.ttf
 data/fonts/vie/VNARIALI.TTF
-data/fonts/vie/UTM Dinh Tran.ttf
 data/fonts/vie/UTM Cool Blue.ttf
 data/fonts/vie/VNI-AmbianceBTSwash.ttf
 data/fonts/vie/UTMFacebookK&TItalic.ttf
@@ -626,7 +621,6 @@ data/fonts/vie/Lato-Medium.ttf
 data/fonts/vie/Raleway-Thin.ttf
 data/fonts/vie/UTM Aquarelle.ttf
 data/fonts/vie/VAPTIMI.TTF
-data/fonts/vie/UTM Neo Sans IntelBold.ttf
 data/fonts/vie/VNI 28 Zirkon.ttf
 data/fonts/vie/UTM Rockwell.ttf
 data/fonts/vie/agoldfac.ttf
@@ -640,7 +634,6 @@ data/fonts/vie/UTM Mobifone KT.ttf
 data/fonts/vie/VPSPHDIT.TTF
 data/fonts/vie/VNAVAN.TTF
 data/fonts/vie/UVNTinTuc_BI.TTF
-data/fonts/vie/UTM Neo Sans Intel.ttf
 data/fonts/vie/VNI-ShishoniBrush.ttf
 data/fonts/vie/vuArialBoldItalic.ttf
 data/fonts/vie/Roboto-BlackItalic.ttf

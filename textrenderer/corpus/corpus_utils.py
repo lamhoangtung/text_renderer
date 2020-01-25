@@ -5,7 +5,7 @@ from textrenderer.corpus.random_corpus import RandomCorpus
 # from textrenderer.corpus.info_genetator import IDCorpus
 from textrenderer.corpus.vbpl_corpus import VBPLCorpus
 from textrenderer.corpus.cmnd_corpus import CMNDCorpus
-
+from textrenderer.corpus.plate_corpus import PlateCorpus
 
 
 def corpus_factory(corpus_mode: str, chars_file: str, corpus_dir: str, length: int):
@@ -15,7 +15,8 @@ def corpus_factory(corpus_mode: str, chars_file: str, corpus_dir: str, length: i
         "eng": EngCorpus,
         "list": ListCorpus,
         "cmnd": CMNDCorpus,
-        'vbpl': VBPLCorpus
+        'vbpl': VBPLCorpus,
+        'plate': PlateCorpus,
     }
 
     if corpus_mode not in corpus_classes.keys():
