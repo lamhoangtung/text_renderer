@@ -1,4 +1,9 @@
+import glob
+
 from fontTools.ttLib import TTCollection, TTFont
+from fontTools.unicode import Unicode
+from tqdm import tqdm
+
 
 def load_font(font_path):
     """
@@ -18,9 +23,14 @@ def load_font(font_path):
 
         return ttf
 
+
+def has_glyph(font, glyph):
+     for table in font['cmap'].tables:
+         if ord(glyph) in table.cmap.keys():
+             return True
+     return False
+
 use = []
-import glob
-from tqdm import tqdm
 for font_path in tqdm(glob.glob('data/fonts/vie/*')):
     try:
         tff = load_font(font_path)
