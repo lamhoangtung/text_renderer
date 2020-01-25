@@ -23,10 +23,22 @@ font_color:
   #   fraction: 0.1
   #   l_boundary: [20,20,190]
   #   h_boundary: [30,30,255]
-  rgb:
-    fraction: 1
+  rgb_1:
+    fraction: 0.3
     l_boundary: [0, 0, 0]
-    h_boundary: [220, 220, 220]
+    h_boundary: [250, 150, 150]
+  rgb_2:
+    fraction: 0.3
+    l_boundary: [0, 0, 0]
+    h_boundary: [150, 150, 250]
+  rgb_3:
+    fraction: 0.3
+    l_boundary: [0, 0, 0]
+    h_boundary: [150, 150, 250]
+  rgb_4:
+    fraction: 0.1
+    l_boundary: [0, 0, 0]
+    h_boundary: [150, 150, 150]
 
 
 # By default, text is drawed by Pillow with (https://stackoverflow.com/questions/43828955/measuring-width-of-text-python-pil)
