@@ -101,7 +101,7 @@ def generate_img(img_index, q=None):
             counter.value += 1
             print_end = '\n' if counter.value == flags.num_img else '\r'
             if counter.value % 100 == 0 or counter.value == flags.num_img:
-                print("{}/{} {:2d}%".format(counter.value,
+                print("======= CURRENT PROGRESS:{}/{} {:2d}% =======".format(counter.value,
                                             flags.num_img,
                                             int(counter.value / flags.num_img * 100)),
                       end=print_end)
