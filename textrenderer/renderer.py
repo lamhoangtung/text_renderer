@@ -45,6 +45,14 @@ class Renderer(object):
         if self.strict:
             self.font_unsupport_chars = font_utils.get_unsupported_chars(self.fonts, corpus.chars_file)
 
+    def color_too_close(self, bg, word_color):
+        average_bg_color = bg.mean(axis=0).mean(axis=0).astype(int)
+        distance = cv2.norm(np.array(word_color), average_bg_color)
+        # print(average_bg_color)
+        # print(np.array(word_color))
+        # print(distance)
+        return distance <= 30
+
     def gen_img(self, img_index):
         word, font, word_size = self.pick_font(img_index)
         # print(img_index)
@@ -53,12 +61,19 @@ class Renderer(object):
 
         # Background's height should much larger than raw word image's height,
         # to make sure we can crop full word image after apply perspective
-        # bg = self.gen_bg(width=int(word_size[0]*2.5), height=int(word_size[1]*2.5))
-        bg = np.ones((int(word_size[1]*2.5), int(word_size[0]*2.5), 3), dtype=np.uint8)*255
+        bg = self.gen_bg(width=int(word_size[0]*2.5), height=int(word_size[1]*2.5))
+        # bg = np.ones((int(word_size[1]*2.5), int(word_size[0]*2.5), 3), dtype=np.uint8)*255
         # print(word_size[0]*2.5)
         # print(bg.shape)
         word_img, text_box_pnts, word_color = self.draw_text_on_bg(word, font, bg)
         self.dmsg("After draw_text_on_bg")
+
+        while self.color_too_close(bg, word_color):
+            self.dmsg("Repick background and word color")
+            bg = self.gen_bg(
+                width=int(word_size[0]*2.5), height=int(word_size[1]*2.5))
+            word_img, text_box_pnts, word_color = self.draw_text_on_bg(
+                word, font, bg)
 
         if apply(self.cfg.crop):
             text_box_pnts = self.apply_crop(text_box_pnts, self.cfg.crop)
@@ -278,7 +293,7 @@ class Renderer(object):
 
         offset = font.getoffset(word)
 
-        pil_img = Image.fromarray(np.uint8(bg))
+        pil_img = Image.fromarray(bg.astype(np.uint8))
         draw = ImageDraw.Draw(pil_img)
 
         # Draw text in the center of bg
@@ -522,6 +537,7 @@ class Renderer(object):
             size: word size, removed offset (width, height)
         """
         word = self.corpus.get_sample(img_index)
+        # print(word)
 
         if self.clip_max_chars and len(word) > self.max_chars:
             max_chars = random.randint(int(0.7*self.max_chars),self.max_chars)
