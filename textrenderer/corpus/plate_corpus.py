@@ -28,11 +28,21 @@ class PlateCorpus(Corpus):
             text = '{} {}-{}'.format(seri, self.random_length_n(2), self.random_length_n(2))
         elif plate_type in [1, 2]: # bien thong thuong, xanh
             province_code = random.randint(11, 99)
-            seri = rstr.xeger(r'[A-Z][A-Z0-9]') if random.randint(0, 1) == 0 else random.choice(seri_db['dac_biet'])
-            if random.randint(0, 1) == 0:
-                text = '{}-{} {}.{}'.format(province_code, seri, self.random_length_n(3), self.random_length_n(2))
+            seri_type = random.randint(0, 2)
+            if seri_type == 0:
+                seri = rstr.xeger(r'[A-Z][A-Z0-9]')
+            elif seri_type == 1:
+                seri = rstr.xeger(r'[A-Z]')
             else:
+                seri = random.choice(seri_db['dac_biet'])
+            plate_format = random.randint(0, 2)
+            if plate_format == 0:
+                text = '{}-{} {}.{}'.format(province_code, seri, self.random_length_n(3), self.random_length_n(2))
+            elif plate_format == 1:
                 text = '{}{} {}.{}'.format(province_code, seri, self.random_length_n(3), self.random_length_n(2))
+            elif plate_format == 2:
+                text = '{}{}-{}.{}'.format(province_code, seri, self.random_length_n(3), self.random_length_n(2))
+            
         elif plate_type == 3: # vang (xe kinh te)
             province_code = random.randint(11, 99)
             text = '{}{} {}.{}'.format(province_code, rstr.xeger(r'[A-Z][A-Z]'), self.random_length_n(3), self.random_length_n(2))
@@ -43,8 +53,9 @@ class PlateCorpus(Corpus):
                 text = '{}-{} {}.{}'.format(province_code, seri, self.random_length_n(3), self.random_length_n(2))
             else:
                 text = '{}{} {}.{}'.format(province_code, seri, self.random_length_n(3), self.random_length_n(2))
-        # text = text.replace('D', 'Đ')
-        # text = '21-Đ1 972.78'
+
+        # Now random cut it to make line ?
+        text = random.choice(text.split(' ')) if random.randint(0, 1) == 0 else text
         return text
 
 if __name__ == "__main__":
